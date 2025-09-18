@@ -1,2 +1,9 @@
-# Student-Grade-Analysis-Project
-A mini-project analyzing student performance using foundational Excel formulas to calculate grades and provide data driven insights.
+This project was designed to explore ho Excel can be used not only for simple data entry but also for automating processes and generating meaningful isights. 
+My goal was to build a small but complete grading system that could calculate scores, assign final grades and provide a clear picture of overall class performance.
+The process began with creating a structured spreadsheet to record each student`s results, including quizzes, a midterm exam and a final exam. Once the data was in place, I used Excel formulas to transform raw numbers into actionable insights. The AVERAGE function allowed me to calculate the overall score for each student while a nested IF formula was implemented to automatically assign letter grades from A to F. This removed the need for manual grading and ensured consistency across the dataset.
+To quicly identify the performance thresholds I introducea an additional formula to determine pass/fail status, with a score of 70 set as the pass mark. This simple automation provided an instant overview of who might require additional support.
+Beyond individual results I also wanted to understand the class as a whole. For this I used a COUNTIF to calculate how many students fell into each grade category. With SUMIF I compared the total and the average scores of passing students versus failing students which highlighted a strong performance gap between the two groups.
+One of the most interesting aspects of this project was adding automated recommendations. By creating a lookup table and combining it with VLOOKUP I built a system that generated personalized feedback for each student based on their final grade. 
+This analysis showed a clear distribution of grades, mostly between A and C and highlighted the gap between passing and failing students. 
+
+This project reflects my approach to data, start with structure, apply logical steps, and use the right tool to turn the raw numbers into clear insights.  
